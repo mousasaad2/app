@@ -377,12 +377,12 @@ aside img{
    }
 
    #articleId{
-   transform: translate(-90% , -47%);  
+   transform: translate(-100% , -47%);  
   
     
    }
 
    #divId{
-       width: 380px;
+       width: 360px;
    }
    }
