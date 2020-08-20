@@ -334,7 +334,7 @@ aside img{
    }
    }
 
-@media only screen and (max-width:450px){
+@media only screen and (max-width:400px){
     
     header{
     position:static;
@@ -389,12 +389,12 @@ aside img{
    }
 
    #articleId{
-   transform: translate(-110% , -42%);  
+   transform: translate(-120% , -42%);  
   
     
    }
 
    #divId{
-       width: 360px;
+       width: 330px;
    }
    }
