@@ -1,0 +1,388 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    height: 80px;
+    width: 100%;
+    position: fixed;/*تثبيت الشريط العلوي*/
+    z-index: 1;/*حتى يكون اعلى العناصر*/
+    
+}
+#spanId{
+    width: 20%;
+    height: 80px;
+    float: right;
+    text-align: center;
+    background-color: #fafafa;
+}
+#h3Id{
+    float: left;
+    
+    line-height: 80px;
+    padding: 0 10px;
+}
+#imgId{
+    height: 100%;
+    width: 30%;
+    border-radius: 50%;
+    
+}
+nav{
+    width: 80%;
+    background-image: linear-gradient(to right, red, rgb(255, 115, 0));
+    text-align: center;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block; 
+}
+nav li{
+    display: inline-block;
+    line-height: 80px;
+    width: 100px;
+    
+    text-align: center;
+    
+}
+#div3Id{
+    background-color: white;
+            position: absolute;
+            z-index: 1;
+            display: none;
+           
+}
+#div3Id a{
+    display: block;
+   
+    background-color: rgb(231, 17, 17);
+    color: white;
+    width: 100px;
+}
+#liId:hover #div3Id{
+    
+    display: block;
+   
+}
+#div3Id a:hover{
+    display: block;
+    background-color: black;
+   
+    
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+    height: 100%;
+    width: 100%;
+    
+}
+main{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(248, 101, 101);
+    border-top: 3px solid white;
+    animation-name: back;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+aside{
+    width: 30%;
+    height: 100%;
+    background-color: #fafafa;
+    text-align: center;
+    float: left;
+}
+
+aside img{
+    margin-top: 100px;
+    width: 95%;
+    height: 60%;
+}
+#h1asideId{
+    padding: 20px 0;
+    border-bottom: 2px solid red;
+}
+#articleId{
+    width: 70%;
+    height: 1500px;
+    float: right;
+    position: relative;/*تعليق لانه يؤثر على تثبيت الشريط العلوي واضفت ستتك العنصر الذي بعده و مارجن للعنصر ديف ه*/
+    position: static;
+    
+}
+#divId{
+    margin: 0 0 0 280px;
+    padding: 10px;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    background-color: #fafafa;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+#divId h1{
+    border-bottom:3px solid red;
+    padding: 15px 0;
+}
+#divId h3{
+    padding: 50px;
+}
+#div2Id{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+#div2Id img{
+    width: 70px;
+    margin: 3px;
+    border-bottom: 2px double red;
+    padding-bottom: 15px;
+    
+}
+#div2Id img:hover{
+    width: 90px;
+    border-bottom: 3px solid black;
+   
+}
+@keyframes back{
+    0%{
+        background-color: white;
+    }
+    25%{
+        background-color: rgb(238, 207, 31);
+    }
+    50%{
+        background-color: rgb(46, 126, 245);
+    }
+    75%{
+        background-color: rgb(245, 46, 46);
+    }
+    100%{
+        background-color: white;
+    }
+    
+}
+
+@media only screen and (max-width:1200px){
+    #articleId{
+        transform: translate(-45% , -30%); 
+       }
+}
+
+
+
+
+
+@media only screen and (max-width:1013px){
+    #spanId{
+       width: 30%;
+   }
+   nav{
+    width: 70%;
+   }
+   aside{
+       width: 40%;
+   }
+   #articleId{
+    transform: translate(-41% , -90%); 
+   }
+  #divId{
+    width: 370px;
+  }
+   
+}
+
+
+
+
+
+@media only screen and (max-width:760px){
+    
+    header{
+    position:static;
+    height: auto;
+   }
+
+   nav{
+       width: 100%;
+       height: 380px;
+       background-color: #fafafa;
+   }
+
+   nav li{
+    width: 100%;
+       display: block;
+   }
+
+   nav a , .ool{
+     margin: 5px;
+   }
+
+   #div3Id{
+    width: 100%;
+   }
+
+   #div3Id a{
+       width: 100%;
+   }
+   
+   #spanId{
+    width: 100%;
+    float: none;
+    
+   }
+
+   #h3Id{
+    float: right;
+    line-height: 110px;
+   }
+
+   #imgId{
+       
+    margin-left: 230px;
+   }
+
+   aside{
+    width: 100%;
+   }
+
+   #articleId{
+    transform: translate(-90% , -47%); 
+   
+   }
+
+   #divId{
+       width: 450px;
+   }
+   }
+
+
+
+   @media only screen and (max-width:660px){
+    
+    header{
+    position:static;
+    height: auto;
+   }
+
+   nav{
+       width: 100%;
+       height: 380px;
+       background-color: #fafafa;
+   }
+
+   nav li{
+    width: 100%;
+       display: block;
+   }
+
+   nav a , .ool{
+     margin: 5px;
+   }
+
+   #div3Id{
+    width: 100%;
+   }
+
+   #div3Id a{
+       width: 100%;
+   }
+   
+   #spanId{
+    width: 100%;
+    float: none;
+    
+   }
+
+   #h3Id{
+    float: right;
+    line-height: 110px;
+   }
+
+   #imgId{
+    margin-left: 220px;
+   }
+
+   aside{
+    width: 100%;
+   }
+
+   #articleId{
+      
+   transform: translate(-90% , -47%);  
+  
+   }
+
+   #divId{
+       width: 390px;
+   }
+   }
+
+@media only screen and (max-width:500px){
+    
+    header{
+    position:static;
+    height: auto;
+   }
+
+   nav{
+       width: 100%;
+       height: 380px;
+       background-color: #fafafa;
+   }
+
+   nav li{
+    width: 100%;
+       display: block;
+   }
+
+   nav a , .ool{
+     margin: 5px;
+   }
+
+   #div3Id{
+    width: 100%;
+   }
+
+   #div3Id a{
+       width: 100%;
+   }
+   
+   #spanId{
+    width: 100%;
+    float: none;
+    
+   }
+
+   #h3Id{
+    float: right;
+    line-height: 110px;
+   }
+
+   #imgId{
+    margin-left: 200px;
+   }
+
+   aside{
+    width: 100%;
+   }
+
+   #articleId{
+   transform: translate(-90% , -47%);  
+  
+    
+   }
+
+   #divId{
+       width: 380px;
+   }
+   }
