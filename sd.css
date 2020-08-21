@@ -389,7 +389,10 @@ aside img{
    }
 
    #articleId{
-   transform: translate(-100% , -41%);  
+       background-color: black;
+       float:none;
+       width: 0px;
+   transform: translate(-50% , 18%);  
   
     
    }
