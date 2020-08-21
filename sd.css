@@ -324,8 +324,10 @@ aside img{
    }
 
    #articleId{
-      
-   transform: translate(-94% , -46%);  
+    /* background-color: black; */
+    float:none;
+    
+    transform: translate(-70% , 18%); 
   
    }
 
@@ -334,7 +336,7 @@ aside img{
    }
    }
 
-@media only screen and (max-width:400px){
+/* @media only screen and (max-width:400px){
     
     header{
     position:static;
@@ -396,17 +398,5 @@ aside img{
        width: 250px;
    }
    }
-   @media only screen and (max-width:280px){
-    #articleId{
-      
-        float:none;
-        width: 0px;
-        transform: translate(-50% , 18%);
-    }
-
-    #divId{
-        width: 230px;
-    }
-
-   }
+   */
 
