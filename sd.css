@@ -396,3 +396,17 @@ aside img{
        width: 250px;
    }
    }
+   @media only screen and (max-width:280px){
+    #articleId{
+      
+        float:none;
+        width: 0px;
+        transform: translate(-50% , 18%);
+    }
+
+    #divId{
+        width: 230px;
+    }
+
+   }
+
