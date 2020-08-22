@@ -365,17 +365,17 @@ aside img{
    }
 
     nav{
-        width: 50%;
+        width: 100%;
         margin: 0 auto;
         
-        padding-left: 150px;
+        padding-left: 0px;
         height: 450px;
         
     }
 
     nav li{
-    width: 50%;
-
+        width: 100%;
+    
         display: block;
     }
 
@@ -392,10 +392,10 @@ aside img{
     }
 
     #div3Id a{
-        width: 70%;
+        width: 100%;
         border-radius: 15px;
         
-        transform:translateX(-25%)
+        transform:translateX(5%)
     }
    
    #spanId{
@@ -416,18 +416,22 @@ aside img{
 
    aside{
     width: 100%;
-    margin-top: 10px;
+   
    }
 
    #articleId{
        background-color: black;
        float:none;
        width: 0px;
-       transform: translate(-50% , 18%);
+       /* transform: translate(-80% , 18%); */
    }
 
    #divId{
-       width: 250px;
+       width: 200px;
+       text-align: center;
+       margin: 0 auto;
+       margin-left: 160px;
+       
    }
    }
    
