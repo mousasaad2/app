@@ -369,7 +369,7 @@ aside img{
         margin: 0 auto;
         
         padding-left: 150px;
-        height: 500px;
+        height: 450px;
         
     }
 
@@ -416,6 +416,7 @@ aside img{
 
    aside{
     width: 100%;
+    margin-top: 10px;
    }
 
    #articleId{
