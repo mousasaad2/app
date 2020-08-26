@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-image: url(img/ty.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 1100px;
+            width: 100%;
+            /*height: 1000px;*/
+            /*object-fit: cover;*/
+
+
+        }
+        header{
+            width: 100%;
+            height: 80px;
+        }
+        nav{
+            height: 80px;
+            width: 80%;
+            text-align: center;
+            line-height: 80px;
+            
+            background-image: linear-gradient(to right, red, rgb(255, 115, 0));
+            
+            float: right;
+        }
+        span{
+            width: 20%;
+            height: 80px;
+            background-color: rgb(255, 255, 255);
+            float: right;
+            
+        }
+        #img2{
+            width: 30%;
+            height: 90%;
+            float: right;
+        }
+        #imgID{
+            width: 40%;
+            height: 40%;
+        }
+        #h3{
+            line-height: 80px;
+            text-align: center;
+        }
+         a button{
+             width: 12%;
+            padding: 7px 20px;
+            margin-left: 15px;
+            padding-left: 25px;
+            border-radius: 15px;
+            outline: 0px;
+        }
+        
+        #ko{
+            width: 80%;
+            padding-top: 5px;
+        }
+       
+        #ko button:hover{
+            background-color: rgb(136, 243, 93);
+            width: 110px;
+            
+        }
+        article{
+            margin: auto;
+            width: 50%;
+            height: 600px;
+            margin-top: 200px;
+            border: 2px solid rgb(130, 247, 218);
+            background-image: linear-gradient(to right, red, rgb(255, 115, 0));
+            border-radius: 15px;
+        }
+        #Id1{
+            text-align:center;
+        }
+        #img{
+            
+            width: 200px;
+            height: 200px;
+            
+        }
+        #div2Id{
+            width: 600px;
+            height: 400px;
+            margin-top: 70px;
+            padding-left: 200px;
+           
+        }
+        #div2Id input{
+            display: block;
+            width: 60%;
+            height: 29px;
+            margin-bottom: 8px;
+            border-radius: 15px;
+            outline: 0px;
+        }
+        #div2Id button{
+            display: block;
+            width: 30%;
+            height: 32px;
+            transform: translateX(50%);
+            border-radius: 15px;
+            outline: 0px;
+            margin-top: 30px;
+        }
+        #div2Id button:hover{
+            background-color: rgb(136, 243, 93);
+            
+    }
+
+
+        @media only screen and (max-width: 1300px){
+            a button{
+                width: 100px;
+            }
+            #div2Id{
+            width: 500px;
+            padding-left: 120px;
+        }
+     }
+
+
+        @media only screen and (max-width: 1000px){
+            a button{
+                width: 100px;
+                }
+                
+                #div2Id{
+            width: 400px;
+            padding-left: 90px;
+
+            }
+                #Id1{
+            text-align:center;
+            }
+            #img{
+            width: 180px;
+            height: 180px;
+        }
+
+
+     }
+
+     @media only screen and (max-width: 800px){
+         *{
+             margin: 0px;
+             padding: 0px;
+         }
+        #div2Id{
+            width: 400px;
+            
+            padding-left: 30px;
+
+            }
+             #Id1{
+            text-align:center;
+            }
+            #img{
+            width: 140px;
+            height: 140px;
+        }
+        #div2Id input{
+            width: 60%;
+            height: 35px;
+            margin-bottom: 10px;
+        }
+        article{
+            width: 50%;
+            height: 400px;
+            margin-top: 100px;
+        }
+     }
+
+     @media only screen and (max-width: 700px){
+
+        #div2Id{
+            width: 400px;
+            height: 300px;
+            padding-left: 25px;
+            margin-top: 30px;
+            }
+             #Id1{
+            text-align:center;
+            }
+            #img{
+            width: 120px;
+            height: 120px;
+        }
+        #div2Id input{
+            width: 45%;
+            height: 35px;
+            margin-bottom: 15px;
+            padding-left: 20px;
+        }
+        #div2Id button{
+            transform: translateX(25%);
+        }
+        
+     }
+     @media only screen and (max-width: 560px){
+
+        #ko #ii{
+            width: 60px;
+            margin-left: 10px;
+            display: inline-block;
+            
+        }
+         #imgID{
+            width: 20px;
+            height: 20px;
+        }
+        a button{
+            width: 70px;
+            height: 50px;
+            margin-left: 10px;
+        }
+     }
+
+     @media only screen and (max-width: 468px){
+
+        span{
+            width: 30%;
+        }
+        nav{
+            width: 70%;
+        }
+        #div2Id input{
+            width: 35%;
+            height: 30px;
+        }
+        #div2Id button{
+            transform: translateX(18%);
+        }
+     }
+     @media only screen and (max-width: 400px){
+
+        #div2Id input{
+            width: 30%;
+            height: 25px;
+            margin-left: -15px;
+        }
+        #div2Id button{
+            transform: translateX(29%);
+            width: 20%;
+            margin-top: 50px;
+        }
+        #img{
+            width: 100px;
+            height: 100px;
+
+     }
+     span{
+            width: 32%;
+        }
+        nav{
+            width: 68%;
+        }
+
+
+     }
+
+
+
+
+
+
+      
+
+    </style>
+</head>
+<body>
+    <header>
+        <span>
+            <img src="img/lol.png" id="img2"/>
+            <h3 id="h3">تسجيل الدخول</h3>
+        </span>
+        <nav>
+            <!-- <form>
+
+
+                <div id="ko">
+               <a href="#ii"> <button type="submit" required><img src="img/yih.png" id="imgID"/></button></a>
+               <a href="#ii"> <button type="submit" required><img src="img/gog.png" id="imgID"/></button></a>
+               <a href="#ii"> <button type="submit" required><img src="img/fac.png" id="imgID"/></button></a>
+               </div>
+
+
+            </form> -->
+
+        </nav>
+    
+    </header>
+
+
+
+
+    <main>
+
+        <article>
+            <div id="Id1">
+                <img src="img/pop2.png" id="img"/>
+            </div>
+            
+            <form>
+            <div id="div2Id">
+
+                <input type="email" placeholder="البريد الالكتروني" required/>
+                <input type="password" placeholder="كلمه المرور" required/>
+                <button type="submit" required><h3>login</h3></button>
+
+            </div>
+           </form>
+        </article>
+
+
+    </main>
+
+</body>
+</html>
